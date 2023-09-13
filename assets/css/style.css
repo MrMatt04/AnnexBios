@@ -1,12 +1,15 @@
+/* FONT IMPORT */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 
+/* ALL */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+/* HEADER START */
 header {
     display: flex;
     justify-content: space-between;
@@ -18,10 +21,10 @@ header {
 }
 
 #logo {
-    margin: 2.5rem 3rem 2.5rem 5rem;
+    margin: 2.5rem 3rem 2.5rem 4%;
 }
 
-#navbuttons {
+#navButtons {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -32,7 +35,7 @@ header {
     right: 8rem;
 }
 
-.navbtn {
+.navBtn {
     background-color: #fff;
     border: none;
     font-size: 1.1rem;
@@ -40,15 +43,123 @@ header {
     
     margin-top: 2.5rem;
     height: 50%;
+    transition: 0.3s;
 }
 
-#subheader {
+.navBtn:hover {
+    color: #399CFF;
+    cursor: pointer;
+}
+
+#subHeader {
     background-color: #399CFF;
     height: 91px;
     width: 100vw;
 }
 
-#tickets {
-    background-color: #aaa;
+#ticketText {
+    color: #fff;
+    font-weight: 550;
+    font-size: 1.3rem;
+    margin: 0 2rem 0 4%;
+    line-height: 5.6rem;
 }
 
+#dropDown {
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    background-color: #77bcda96;
+    padding: 0.8rem 8rem 0.8rem 0.2rem;
+    text-align: start;
+}
+
+#tickets {
+    margin: 0 0 0 2rem;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border: none;
+    background-color: #fff;
+    
+    color: #399CFF;
+    font-weight: 550;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+#tickets:hover {
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1080px) {
+    #navButtons {
+        display: none
+    }
+}
+
+@media screen and (max-width:680px) {
+    #subHeader {
+        height: 5px;
+    } 
+    #ticketText, #dropDown, #tickets {
+        display: none;
+    }
+}
+/* HEADER END */
+
+#welcome {
+    margin: 10rem auto 0.5rem auto;
+    width: 80rem;
+    height: 22rem;
+    background-color: #399CFF;
+    padding: 2rem 30rem 2rem 2rem;
+    color: #fff;
+}
+
+#mainTitle {
+    margin-bottom: 2rem;
+}
+
+#callToActionBtn {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    
+    color: #399CFF;
+    font-weight: 550;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    flex-direction: column;
+}
+
+#callToActionBtn:hover {
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#mapAndContact {
+    margin: 5rem auto;
+    /* width: 80rem; */
+    /* height: 45%; */
+    /* background-color: red; */
+    /* padding: 2rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#left { 
+    background-color: #399CFF;
+    color: #fff;
+    /* padding: 1rem; */
+    width: 48%;
+    /* border: #000 1px solid; */
+    position: relative;
+}
+
+#right {
+    background-color: purple;
+    width: 48%;
+}
