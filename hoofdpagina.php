@@ -1,21 +1,9 @@
 <?php 
 	include 'jsonconnect.php';
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/all.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
-  <link rel="stylesheet" href="./assets/css/hoofdpagina.css">
-  <link rel="stylesheet" href="./assets/css/footer.css">
-  <title>hoi</title>
-</head>
-<body>
-<?php
+	include 'head.php';
     include 'header.php';
 ?>
+<body>
   	<div id="welcome">
 		<h1 id="mainTitle">WELKOM BIJ ANNEXBIOS 5</h1>
 		<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, cupiditate illum possimus totam id maiores ut iste accusamus nulla eveniet.</span>
@@ -54,11 +42,6 @@
       <img src="./assets/maps/Hellevoetssluis.png" style="width: 98%;" alt="Hellevoetssluis">
     </div>
   </div>
-
-
-
-
-
 <?php
 echo "<div id='testFilmOverview'>";
 for ($i = 0; $i < count($response->results); $i++) {
@@ -72,6 +55,10 @@ for ($i = 0; $i < count($response->results); $i++) {
   echo "</div>";
 }
 echo "</div>";
+?>
+
+<?php
+	include 'footer.php';
 ?>
 </body>
 </html>
