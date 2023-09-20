@@ -1,8 +1,9 @@
 <?php 
-	include 'jsonconnect.php';
-	include 'head.php';
     include 'header.php';
 ?>
+<head>
+	<link rel="stylesheet" href="./assets/css/hoofdpagina.css">
+</head>
 <body>
   	<div id="welcome">
 		<h1 id="mainTitle">WELKOM BIJ ANNEXBIOS 5</h1>
@@ -56,12 +57,7 @@ for ($i = 0; $i < count($response->results); $i++) {
   echo "</div>";
 }
 echo "</div>";
-
-echo "<pre>";
-	var_dump($response);
-echo "</pre>";
 ?>
-
 <?php
 	include 'footer.php';
 ?>

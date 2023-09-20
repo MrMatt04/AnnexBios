@@ -5,13 +5,23 @@ footer {
     background-color: #666;
   }
 
-  div {
-    color: white;
-  }
+#navigeer {
+    color: #fff;
+}
+
+#links {
+    color: #fff;
+}
+
+#social {
+    color: #fff;
+}
+
+
 
 a {
     text-decoration: none;
-    color: white;
+    color: #fff;
   }
 
 #logof {
@@ -20,6 +30,7 @@ a {
   }
 
 #textboxf {
+    color: #fff;
     width: 401px;
     height: 141px;
   }

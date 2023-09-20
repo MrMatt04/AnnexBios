@@ -8,4 +8,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: #000;
+    background-image: url('../header/header_afbeelding_darker.png');
+    background-repeat: no-repeat;
 }
