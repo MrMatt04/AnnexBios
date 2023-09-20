@@ -106,8 +106,9 @@ pre {
     padding: 1rem;
     width: 100%;
     background-color: #fff;
-    height: 20rem;
+    height: 24rem;
     color: #000;
+    position: relative;
 }
 
 #filmTextOBJ {
@@ -125,4 +126,23 @@ pre {
 
 #languageTextOBJ {
     font-size: 0.7rem;
+}
+
+#buttonOBJ {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border: none;
+    background-color: #399CFF;
+    color: #fff;
+    font-weight: 550;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+#buttonOBJ:hover {
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
 }

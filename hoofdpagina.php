@@ -51,10 +51,15 @@ for ($i = 0; $i < count($response->results); $i++) {
     echo "<span id='filmTextOBJ'>". $response->results[$i]->movie_name ."</span>" . "<br><br>";
     echo "<span id='dateTextOBJ'>Release: ". $response->results[$i]->movie_date ."</span>" . "<br><br>";
     echo "<span id='descriptionTextOBJ'>Description: ". $response->results[$i]->big_description ."</span>" . "<br><br>";
+	echo "<a href='filmpreview.php?id=". $response->results[$i]->movie_id ."'><button id='buttonOBJ'>MEER INFO & TICKETS</button></a>";
     echo "</div>";
   echo "</div>";
 }
 echo "</div>";
+
+echo "<pre>";
+	var_dump($response);
+echo "</pre>";
 ?>
 
 <?php

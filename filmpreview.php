@@ -1,5 +1,4 @@
 <?php
-    include 'jsonconnect.php';
-    include 'head.php';
     include 'header.php';
 ?>
+<img src="<?php echo $response->poster ?>" alt="">

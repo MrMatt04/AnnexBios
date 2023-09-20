@@ -1,5 +1,5 @@
 <?php 
-    include 'head.css';
+    include 'head.php';
 ?>
 <footer>
     <div id="colm1">
