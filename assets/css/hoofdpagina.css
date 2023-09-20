@@ -1,0 +1,128 @@
+body {
+    background-color: #000;
+    background-image: url('../header/header_afbeelding_darker.png');
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    margin: 8rem auto 0.5rem auto;
+    width: 100rem;
+    height: 22rem;
+    background-color: #399CFF;
+    padding: 2rem;
+    color: #fff;
+    position: relative;
+}
+
+#mainTitle {
+    margin-bottom: 2rem;
+}
+
+#callToActionBtn {
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    
+    color: #399CFF;
+    font-weight: 550;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    flex-direction: column;
+}
+
+#callToActionBtn:hover {
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#mapAndContact {
+    margin: 5rem auto;
+    width: 100rem;
+    /* height: 45%; */
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left { 
+    background-color: #399CFF;
+    color: #fff;
+    /* padding: 1rem; */
+    width: 48%;
+    /* border: #000 1px solid; */
+    position: relative;
+}
+
+#info{
+    padding: 2rem;
+}
+
+#right {
+    /* background-color: purple; */
+    width: 48%;
+}
+
+@media screen and (max-width:1370px) {
+    #left {
+        width: 100%;
+    }
+
+    #right {
+        display: none;
+    }
+
+    #welcome {
+        width: 95%;
+    }
+
+    #mapAndContact {
+        width: 95%;
+    }
+}
+
+pre {
+    color: #fff;
+}
+
+#testFilmOverview {
+    overflow-y: hidden;
+    margin: 2rem auto;
+    max-width: 100rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#testFilmOBJ {
+    height: 100%;
+    margin: 1rem 0.2rem 1rem 0.2rem;
+}
+
+#testTextOBJ {
+    padding: 1rem;
+    width: 100%;
+    background-color: #fff;
+    height: 20rem;
+    color: #000;
+}
+
+#filmTextOBJ {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#dateTextOBJ {
+    font-size: 0.7rem;
+}
+
+#descriptionTextOBJ {
+    font-size: 0.7rem;
+}
+
+#languageTextOBJ {
+    font-size: 0.7rem;
+}

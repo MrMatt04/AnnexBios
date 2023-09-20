@@ -1,23 +1,10 @@
-/* FONT IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
-
-/* ALL */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 /* HEADER START */
 header {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     height: 161px;
-    width: 100vw;
-    
-
+    width: 100%;
 }
 
 #logo {
@@ -28,10 +15,8 @@ header {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid #000; */
     width: 26rem;
     height: 161px;
-    
     right: 8rem;
 }
 
@@ -40,7 +25,6 @@ header {
     border: none;
     font-size: 1.1rem;
     font-weight: 500;
-    
     margin-top: 2.5rem;
     height: 50%;
     transition: 0.3s;
@@ -54,7 +38,7 @@ header {
 #subHeader {
     background-color: #399CFF;
     height: 91px;
-    width: 100vw;
+    width: 100%;
 }
 
 #ticketText {
@@ -79,7 +63,6 @@ header {
     padding: 0.5rem 1.2rem 0.5rem 1.2rem;
     border: none;
     background-color: #fff;
-    
     color: #399CFF;
     font-weight: 550;
     font-size: 0.9rem;
@@ -98,7 +81,7 @@ header {
     }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:900px) {
     #subHeader {
         height: 5px;
     } 
@@ -107,59 +90,3 @@ header {
     }
 }
 /* HEADER END */
-
-#welcome {
-    margin: 10rem auto 0.5rem auto;
-    width: 80rem;
-    height: 22rem;
-    background-color: #399CFF;
-    padding: 2rem 30rem 2rem 2rem;
-    color: #fff;
-}
-
-#mainTitle {
-    margin-bottom: 2rem;
-}
-
-#callToActionBtn {
-    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
-    border: none;
-    background-color: #fff;
-    display: flex;
-    
-    color: #399CFF;
-    font-weight: 550;
-    font-size: 0.9rem;
-    transition: 0.3s;
-    flex-direction: column;
-}
-
-#callToActionBtn:hover {
-    color: #fff;
-    background-color: #000;
-    cursor: pointer;
-}
-
-#mapAndContact {
-    margin: 5rem auto;
-    /* width: 80rem; */
-    /* height: 45%; */
-    /* background-color: red; */
-    /* padding: 2rem; */
-    display: flex;
-    justify-content: space-between;
-}
-
-#left { 
-    background-color: #399CFF;
-    color: #fff;
-    /* padding: 1rem; */
-    width: 48%;
-    /* border: #000 1px solid; */
-    position: relative;
-}
-
-#right {
-    background-color: purple;
-    width: 48%;
-}
