@@ -9,14 +9,28 @@
     <div id="bestelforum">
       <div id="stap1">
         <h1>Stap 1: Kies je ticket</h1>
-        <form action="#">
-          normaal prijs 9 euro<input type="number" /><br />
-          kind t/m 11 jaar 5 euro <input type="number" /><br />
-          65+ 7 euro <input type="number" /><br />
-          <hr />
-          <br />
-          voucher code <input type="text" /> <input type="submit" />
-        </form>
+        <table>
+          <tr>
+            <th>Type</th>
+            <th>Prijs</th>
+            <th>Aantal</th>
+          </tr>
+          <tr>
+            <th>Normaal</th>
+            <th>€9</th>
+            <th><input type="number" /></th>
+          </tr>
+          <tr>
+            <th>Kind t/m 11</th>
+            <th>€5</th>
+            <th><input type="number" /></th>
+          </tr>
+          <tr>
+            <th>65+</th>
+            <th>€7</th>
+            <th><input type="number" /></th>
+          </tr>
+        </table>
       </div>
       <div id="stap2">
         <h1>stap 2: Kies je stoel</h1>
@@ -27,6 +41,51 @@
       </div>
       <div id="stap3">
         <h1>Stap 3: controleer je besteling</h1>
+      </div>
+      <div id="stap4">
+        <h1>Stap 4: Vull je gegevens in</h1>
+        <form action="#">
+          <input type="text" id="fname" name="fname" placeholder="Voornaam" />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Achternaam"
+          /><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="uw email"
+          /><br />
+          <input
+            type="text"
+            id="Cemail"
+            name="Cemail"
+            placeholder="confirm email"
+          />
+        </form>
+      </div>
+      <div id="stap5">
+        <h1>Stap 5: Betaalwijze</h1>
+        <input
+          type="checkbox"
+          id="biosbon"
+          name="biosbon"
+          value="Bioscoop bon"
+        />
+        <label for="biosbon">bioscoop bon</label>
+        <input type="checkbox" id="meastro" name="meastro" value="meastro" />
+        <label for="meastro">meastro </label>
+        <input type="checkbox" id="Ideal" name="Ideal" value="Ideal" />
+        <label for="Ideal">Ideal</label><br />
+        <input
+          type="checkbox"
+          id="voorwaarden"
+          name="voorwaarden"
+          value="voorwaarden"
+        />
+        <label for="voorwaarden">ik ga akkoord met de voorwaarden</label>
       </div>
     </div>
   </body>
