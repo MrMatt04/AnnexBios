@@ -1,9 +1,3 @@
-body {
-    background-color: #000;
-    background-image: url('../header/header_afbeelding_darker.png');
-    background-repeat: no-repeat;
-}
-
 #welcome {
     margin: 8rem auto 0.5rem auto;
     width: 100rem;
@@ -67,7 +61,7 @@ body {
     width: 48%;
 }
 
-@media screen and (max-width:1370px) {
+@media screen and (max-width:1670px) {
     #left {
         width: 100%;
     }
@@ -106,7 +100,7 @@ pre {
     padding: 1rem;
     width: 100%;
     background-color: #fff;
-    height: 24rem;
+    height: 23rem;
     color: #000;
     position: relative;
 }

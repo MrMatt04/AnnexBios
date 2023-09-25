@@ -16,7 +16,7 @@
     </div>
     <div id="colm2">
     <div id="navf">
-        <h1>navigeer</h1>
+        <h1 id="navigeer">navigeer</h1>
     </div>
     <div id="links">
         <ul>

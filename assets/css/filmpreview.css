@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60rem;
+    margin: 1rem auto;
+    max-width: 100rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#mainTitle {
+    margin: 8rem auto 4rem;
+    padding: 1rem;
+    background-color: #fff;
+    color: #399CFF;
+    max-width: 100rem;
+    font-size: 3rem;
+}
+
+#left{
+    width: 40%;
+    position: absolute;
+    left: 0;
+}
+
+#right{
+    padding: 3rem;
+    width: 60%;
+    right: 0;
+    position: absolute;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:1670px) {
+    #mainTitle {
+        width: 95%;
+    }
+
+    #container {
+        width: 95%;
+    }
+}
