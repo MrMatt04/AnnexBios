@@ -19,10 +19,6 @@
             <span><?php echo $response->big_description ?></span><br><br>
             <span>Genres: <?php 
             
-            foreach ($response->genres as $item) {
-                // echo $item . ", ";
-            }
-
             echo join(', ', $response->genres);
             
             ?></span><br><br>
